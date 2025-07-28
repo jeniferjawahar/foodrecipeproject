@@ -1,13 +1,56 @@
-# React + Vite
+# 🍽️ Food Recipe App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive **Food Recipe App** built using **React** and **Vite**. Users can search for various recipes and view ingredients, instructions, and meal details using data fetched from an external API.
 
-Currently, two official plugins are available:
+## 🔧 Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ React (with Hooks)
+- ⚡ Vite (for fast development & build)
+- 📦 Axios (for API calls)
+- 🌐 TheMealDB API (or any recipe API)
+- 💅 Tailwind CSS / CSS Modules (if used)
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# foodrecipeproject
+- Search for recipes by keyword (e.g., chicken, pasta)
+- View recipe details:
+  - Ingredients
+  - Cooking instructions
+  - Meal image
+  - Category and area
+- Clean and responsive UI for mobile and desktop
+
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/food-recipe-app.git
+cd food-recipe-app
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Set up environment variables (if using API key)
+If the API requires a key, create a .env file:
+
+```
+VITE_API_KEY=your_api_key_here
+```
+
+### 4. Run the app
+```
+npm run dev
+```
+
+### 📝 What I Learned
+- Fetching and rendering API data dynamically
+- Managing loading and error states in React
+- Building reusable components with props
+- Responsive design using modern CSS frameworks
+
+### 📄 License
+This project is for learning and personal portfolio use. Feel free to fork, clone, or build upon it!
